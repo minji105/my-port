@@ -1,5 +1,13 @@
 :root {
   --color-blue: rgb(0, 0, 196);
+  
+  --color-gray-bg: rgb(248, 248, 248);
+  --color-blue-bg: rgb(244, 248, 255);
+
+  --color-gray-border: rgb(231, 231, 231);
+  --color-gray-text: rgb(175, 175, 175);
+
+  --gap: 32px
 }
 
 body {
@@ -8,7 +16,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "nav body body body";
-  grid-gap: 32px;
+  gap: var(--gap);
 }
 
 li {
