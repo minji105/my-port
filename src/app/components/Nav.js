@@ -10,7 +10,7 @@ function Nav() {
     <div className={styles.navbar}>
       <ul>
         <li><a href="/" className={pathname === '/' ? styles.active : ''}>About</a></li>
-        <li><a href="/portfolio" className={pathname === '/portfolio' ? styles.active : ''}>Portfolio</a></li>
+        <li><a href="/projects" className={pathname === '/projects' ? styles.active : ''}>Portfolio</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
     </div>
