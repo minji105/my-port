@@ -15,11 +15,13 @@ export default function ProjectDetails() {
 
   return (
     <div className={styles.container}>
-      <h1>{project.title}</h1>
-      <p>Type: {project.type}</p>
-      <p>Date: {project.date}</p>
-      <img src={project.image} alt={project.title} />
-      <p>{project.description}</p>
+      <div className={styles.imgs}>
+        {project.images.map((image, index)=> (
+          <img key={index} src={image} alt={index} />
+        ))}
+      </div>
+
+      <div></div>
     </div>
   );
 }

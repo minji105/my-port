@@ -1,3 +1,13 @@
 .container {
-  grid-area: body;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap);
+  margin-top: var(--top-margin);
+  padding: 16px;
+  background-color: var(--color-gray-bg);
+}
+
+.imgs img {
+  width: 100%;
+  object-fit: cover;
 }

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./page.module.scss";
 import data from "../data/projects.json";
 import Link from "next/link";
@@ -8,8 +9,8 @@ export default function Projects() {
       {data.map((project, index) => (
         <Link key={index} href={`/projects/${project.id}`}>
           <div className={styles.image}>
-            <img src={project.image1} alt={project.name} />
-            <img src={project.image2} alt={project.name} />
+            <img src={`/images/${project.id}/1.png`} alt={project.name} />
+            <img src={`/images/${project.id}/2.png`} alt={project.name} />
           </div>
           <div className={styles.title}>
             <span>{project.title}</span>

@@ -1,11 +1,11 @@
 :root {
-  --color-gray-bg: rgb(248, 248, 248);
+  --color-gray-bg: rgb(246, 246, 246);
   --color-gray-bg-hover: rgb(240, 240, 240);
   --color-gray-border: rgb(220, 220, 220);
   --color-gray-text: rgb(175, 175, 175);
 
   --gap: 32px;
-  --top-margin: 100px;
+  --top-margin: 104px;
   --scrollbar: 8px;
 
   --card-padding: 15%;
