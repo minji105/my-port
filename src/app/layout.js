@@ -1,12 +1,12 @@
 import "./globals.css";
-import Nav from "./components/Nav";
+import Header from "./components/Header";
 import Cursor from "./components/cursor";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Nav />
+        <Header />
         <Cursor />
         {children}
       </body>

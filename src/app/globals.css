@@ -5,6 +5,8 @@
   --color-gray-text: rgb(175, 175, 175);
 
   --gap: 32px;
+  --top-margin: 100px;
+  --scrollbar: 8px;
 
   --card-padding: 15%;
 }
@@ -12,10 +14,7 @@
 body {
   margin: 58px 32px;
   width: calc(100vw - 64px);
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: "nav body body body";
-  gap: var(--gap);
+  overflow-y: scroll;
 }
 
 html {
@@ -33,16 +32,15 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: var(--scrollbar);
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-gray-bg);
+  background: none;
 }
 
 ::-webkit-scrollbar-thumb {
   background: rgb(196, 196, 196);
-  border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

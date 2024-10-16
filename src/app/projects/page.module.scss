@@ -1,8 +1,8 @@
 .container {
-  grid-area: body;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--gap);
+  margin-top: var(--top-margin);
 }
 
 .title {
@@ -11,7 +11,7 @@
   flex-direction: column;
   margin-top: 16px;
   padding: 8px 0;
-  font-size: 1rem;
+  text-transform: uppercase;
 
   span:last-child {
     color: var(--color-gray-text);
@@ -23,7 +23,6 @@
   background-color: var(--color-gray-bg);
   padding: var(--card-padding) var(--card-padding) 0;
   height: 32vh;
-  border-radius: 4px;
   overflow: hidden;
 
   &:hover {

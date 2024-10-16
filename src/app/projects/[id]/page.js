@@ -2,6 +2,7 @@
 
 import { useParams } from 'next/navigation';
 import data from '../../data/projects.json';
+import styles from './page.module.scss';
 
 export default function ProjectDetails() {
   const { id } = useParams();
@@ -13,7 +14,7 @@ export default function ProjectDetails() {
   }
 
   return (
-    <div>
+    <div className={styles.container}>
       <h1>{project.title}</h1>
       <p>Type: {project.type}</p>
       <p>Date: {project.date}</p>

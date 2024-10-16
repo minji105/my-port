@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - var(--gap) * 2 + var(--scrollbar));
+  padding: 8px 0;
+  margin: 0 var(--gap);
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--color-gray-border);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap);
+  line-height: 1.2rem;
+  text-transform: uppercase;
+  box-sizing: border-box;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+
+      a.active::before {
+        content: '𝅥𝅥';
+        margin-right: 12px;
+      }
+
+      a.active,
+      a:hover {
+        color: #000;
+        font-weight: 600;
+      }
+    }
+  }
+
+  span:last-child {
+    text-align: end;
+    color: var(--color-gray-text);
+  }
+}
