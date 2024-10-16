@@ -18,6 +18,10 @@ body {
   gap: var(--gap);
 }
 
+html {
+  cursor: none;
+}
+
 li {
   list-style: none;
 }
@@ -25,6 +29,7 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: inherit;
 }
 
 ::-webkit-scrollbar {
