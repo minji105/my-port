@@ -1,14 +1,12 @@
 :root {
-  --color-skyblue: rgb(184, 203, 255);
-  --color-blue: rgb(0, 0, 196);
-  
   --color-gray-bg: rgb(248, 248, 248);
-  --color-blue-bg: rgb(244, 248, 255);
-
-  --color-gray-border: rgb(231, 231, 231);
+  --color-gray-bg-hover: rgb(240, 240, 240);
+  --color-gray-border: rgb(220, 220, 220);
   --color-gray-text: rgb(175, 175, 175);
 
-  --gap: 32px
+  --gap: 32px;
+
+  --card-padding: 15%;
 }
 
 body {
@@ -34,7 +32,7 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-gray-border);
+  background: var(--color-gray-bg);
 }
 
 ::-webkit-scrollbar-thumb {

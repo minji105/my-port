@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "title": "Photographer Portfolio Website",
+    "type": "Website",
+    "date": "2024",
+    "image1": "/images/joheesu1.png",
+    "image2": "/images/joheesu2.png"
+  },
+  {
+    "id": "2",
+    "title": "Cyworld",
+    "type": "Website",
+    "date": "2024",
+    "image1": "/images/cyworld1.png",
+    "image2": "/images/cyworld2.png"
+  },
+  {
+    "id": "3",
+    "title": "Hotel Metaverse",
+    "type": "VR/AR",
+    "date": "2023",
+    "image": "/images/ecommerce-platform.png"
+  }
+]
