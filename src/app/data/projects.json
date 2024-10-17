@@ -7,7 +7,10 @@
     "images": [
       "/images/1/1.png",
       "/images/1/2.png"
-    ]
+    ],
+    "stacks": ["React", "React Router", "scss", "gsap"],
+    "github": "https://github.com/minji105/joheesu-port",
+    "url": "https://hsphotography.site/"
   },
   {
     "id": "2",

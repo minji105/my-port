@@ -3,11 +3,48 @@
   grid-template-columns: repeat(2, 1fr);
   gap: var(--gap);
   margin-top: var(--top-margin);
-  padding: 16px;
   background-color: var(--color-gray-bg);
 }
 
-.imgs img {
-  width: 100%;
-  object-fit: cover;
+.imgs {
+  padding: var(--gap);
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.detail {
+  padding: var(--gap);
+}
+
+.cell {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid var(--color-gray-border);
+  padding: 8px 0;
+  color: var(--color-gray-text);
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    &:first-child {
+      color: #000;
+    }
+  }
+
+  a:hover {
+    color: gray;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    font-size: var(--font-size-m);
+  }
 }

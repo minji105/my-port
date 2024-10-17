@@ -9,12 +9,20 @@
   --scrollbar: 8px;
 
   --card-padding: 15%;
+
+  --font-size-m: .8rem;
 }
 
 body {
-  margin: 58px 32px;
-  width: calc(100vw - 64px);
+  margin: 0 var(--gap) var(--gap);
+  width: calc(100vw - var(--gap) * 2);
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --gap: 16px;
+  }
 }
 
 html {
