@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
   --color-gray-bg: rgb(246, 246, 246);
   --color-gray-bg-hover: rgb(240, 240, 240);
@@ -5,23 +7,28 @@
   --color-gray-text: rgb(175, 175, 175);
 
   --gap: 32px;
-  --top-margin: 104px;
+  --top-margin: 88px;
   --scrollbar: 8px;
 
   --card-padding: 15%;
-
-  --font-size-m: .8rem;
 }
 
 body {
   margin: 0 var(--gap) var(--gap);
   width: calc(100vw - var(--gap) * 2);
   overflow-y: scroll;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 @media screen and (max-width: 768px) {
   :root {
     --gap: 16px;
+  }
+
+  body {
+    font-size: .8rem;
   }
 }
 

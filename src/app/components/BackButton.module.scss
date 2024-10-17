@@ -1,0 +1,8 @@
+.back {
+  margin: var(--top-margin) 0 4px;
+  display: inline-block;
+  
+  &:hover {
+    font-weight: bolder;
+  }
+}

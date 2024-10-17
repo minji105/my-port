@@ -2,21 +2,15 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--gap);
-  margin-top: var(--top-margin);
   background-color: var(--color-gray-bg);
+  padding: 16px;
 }
 
 .imgs {
-  padding: var(--gap);
-
   img {
     width: 100%;
     object-fit: cover;
   }
-}
-
-.detail {
-  padding: var(--gap);
 }
 
 .cell {
@@ -43,8 +37,13 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     font-size: var(--font-size-m);
+  }
+
+  .detail {
+    height: fit-content;
+    margin-top: 8px;
   }
 }
