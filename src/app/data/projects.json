@@ -20,7 +20,10 @@
     "images": [
       "/images/2/1.png",
       "/images/2/2.png"
-    ]
+    ],
+    "stacks": ["React", "React Router", "scss", "gsap"],
+    "github": "https://github.com/minji105/joheesu-port",
+    "url": "https://hsphotography.site/"
   },
   {
     "id": "3",

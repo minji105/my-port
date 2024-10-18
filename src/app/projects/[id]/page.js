@@ -3,7 +3,6 @@
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import data from '../../data/projects.json';
-import BackButton from '../../components/BackButton';
 import OpenSite from '@/app/components/OpenSite';
 import styles from './page.module.scss';
 
@@ -11,6 +10,9 @@ export default function ProjectDetails() {
   const { id } = useParams();
 
   const project = data.find((proj) => proj.id === id);
+
+  const prev = Number(id) - 1 === 0 ? 2 : Number(id) - 1;
+  const next = Number(id) + 1 === 3 ? 1 : Number(id) + 1;
 
   if (!project) {
     return <p>Project not found</p>;
@@ -30,7 +32,6 @@ export default function ProjectDetails() {
 
         <div className={styles.detail}>
           <div className={styles.buttons}>
-            <BackButton />
             <OpenSite url={project.url} />
           </div>
 
@@ -59,6 +60,11 @@ export default function ProjectDetails() {
             <div><Link href={project.url}>{project.url}</Link></div>
           </div>
         </div>
+      </div>
+
+      <div className={styles.footer}>
+        <Link href={`/projects/${prev}`}>⟵ Prev</Link>
+        <Link href={`/projects/${next}`}>Next ⟶</Link>
       </div>
     </>
   );
