@@ -4,7 +4,7 @@
   --color-gray-bg: rgb(246, 246, 246);
   --color-gray-bg-hover: rgb(240, 240, 240);
   --color-gray-border: rgb(220, 220, 220);
-  --color-gray-text: rgb(175, 175, 175);
+  --color-gray-text: rgb(150, 150, 150);
 
   --gap: 32px;
   --top-margin: 104px;
@@ -18,8 +18,9 @@ body {
   width: calc(100vw - var(--gap) * 2);
   overflow-y: scroll;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
+  font-size: .9rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -30,10 +31,6 @@ body {
   body {
     font-size: .8rem;
   }
-}
-
-html {
-  cursor: none;
 }
 
 li {

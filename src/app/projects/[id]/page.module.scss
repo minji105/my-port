@@ -2,6 +2,10 @@
   display: flex;
   gap: var(--gap);
   margin-top: var(--top-margin);
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .imgs {
@@ -25,25 +29,21 @@
   grid-template-columns: repeat(2, 1fr);
   border-top: 1px solid var(--color-gray-border);
   padding: 8px 0;
-  color: var(--color-gray-text);
 
   div {
     display: flex;
     flex-direction: column;
 
-    &:first-child {
-      color: #000;
+    &:last-child {
+      color: var(--color-gray-text);
     }
-  }
-
-  a:hover {
-    color: gray;
   }
 }
 
 .buttons {
-  margin-bottom: 16px;
-  text-align: end;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
@@ -67,6 +67,6 @@
   padding: 16px 0;
 
   a:hover {
-    font-weight: bolder;
+    text-decoration: underline;
   }
 }

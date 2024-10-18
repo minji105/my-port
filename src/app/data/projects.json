@@ -10,7 +10,8 @@
     ],
     "stacks": ["React", "React Router", "scss", "gsap"],
     "github": "https://github.com/minji105/joheesu-port",
-    "url": "https://hsphotography.site/"
+    "url": "https://hsphotography.site/",
+    "explain": "사진작가 조희수의 포트폴리오 사이트입니다. 간결하고 미니멀한 디자인으로 제작하여 사진 작품에 집중할 수 있도록 구성하였습니다. 반응형으로 제작하였습니다."
   },
   {
     "id": "2",

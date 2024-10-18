@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 
 import { useParams } from 'next/navigation';
@@ -32,7 +33,8 @@ export default function ProjectDetails() {
 
         <div className={styles.detail}>
           <div className={styles.buttons}>
-            <OpenSite url={project.url} />
+            {project.id} - 2
+            <Link className={styles.back} href={project.url} target="_blank" >Open Site ⤴</Link>
           </div>
 
           <div className={styles.cell}>
@@ -58,6 +60,10 @@ export default function ProjectDetails() {
           <div className={styles.cell}>
             <div>Url</div>
             <div><Link href={project.url}>{project.url}</Link></div>
+          </div>
+          <div className={styles.cell}>
+            <div>Explain</div>
+            <div>{project.explain}</div>
           </div>
         </div>
       </div>
