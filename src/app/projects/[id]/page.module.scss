@@ -1,16 +1,23 @@
 .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   gap: var(--gap);
-  background-color: var(--color-gray-bg);
-  padding: 16px;
+  margin-top: var(--top-margin);
 }
 
 .imgs {
+  flex: 1;
+
   img {
     width: 100%;
     object-fit: cover;
   }
+}
+
+.detail {
+  flex: 1;
+  position: sticky;
+  top: var(--top-margin);
+  height: fit-content;
 }
 
 .cell {
@@ -34,6 +41,11 @@
   }
 }
 
+.buttons {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
 
 @media screen and (max-width: 768px) {
   .container {
@@ -43,7 +55,7 @@
   }
 
   .detail {
+    flex: auto;
     height: fit-content;
-    margin-top: 8px;
   }
 }

@@ -4,6 +4,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import data from '../../data/projects.json';
 import BackButton from '../../components/BackButton';
+import OpenSite from '@/app/components/OpenSite';
 import styles from './page.module.scss';
 
 export default function ProjectDetails() {
@@ -17,16 +18,22 @@ export default function ProjectDetails() {
 
   return (
     <>
-      <BackButton />
-
       <div className={styles.container}>
         <div className={styles.imgs}>
+          {project.images.map((image, index) => (
+            <img key={index} src={image} alt={index} />
+          ))}
           {project.images.map((image, index) => (
             <img key={index} src={image} alt={index} />
           ))}
         </div>
 
         <div className={styles.detail}>
+          <div className={styles.buttons}>
+            <BackButton />
+            <OpenSite url={project.url} />
+          </div>
+
           <div className={styles.cell}>
             <div>Title</div>
             <div>{project.title}</div>
