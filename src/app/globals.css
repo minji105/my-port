@@ -7,7 +7,7 @@
   --color-gray-text: rgb(150, 150, 150);
 
   --gap: 32px;
-  --top-margin: 104px;
+  --top-margin: 112px;
   --scrollbar: 8px;
 
   --card-padding: 32px;
@@ -40,7 +40,6 @@ li {
 a {
   text-decoration: none;
   color: inherit;
-  cursor: inherit;
 }
 
 ::-webkit-scrollbar {

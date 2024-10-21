@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--gap);
-  margin-top: var(--top-margin);
+  padding-top: var(--top-margin);
 }
 
 .title {

@@ -1,7 +1,6 @@
 "use client";
 
 import { usePathname } from 'next/navigation';
-import { useEffect } from 'react';
 import styles from './Header.module.scss';
 
 function Nav() {
@@ -13,7 +12,7 @@ function Nav() {
       <span>Developer</span>
       <ul>
         <li><a href="/" className={pathname === '/' ? styles.active : ''}>About</a></li>
-        <li><a href="/projects" className={pathname.startsWith('/projects') ? styles.active : ''}>Portfolio</a></li>
+        <li><a href="/projects" className={pathname.startsWith('/projects') ? styles.active : ''}>Projects</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
       <span>Dark mode</span>
