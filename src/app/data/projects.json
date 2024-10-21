@@ -4,6 +4,7 @@
     "title": "Photographer Portfolio Website",
     "type": "Website",
     "date": "2024",
+    "main": "/images/mains/1.gif",
     "images": [
       "/images/1/1.png",
       "/images/1/2.png"

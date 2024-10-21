@@ -9,8 +9,7 @@ export default function Projects() {
       {data.map((project, index) => (
         <Link key={index} href={`/projects/${project.id}`}>
           <div className={styles.image}>
-            <img src={`/images/${project.id}/1.png`} alt={project.name} />
-            <img src={`/images/${project.id}/2.png`} alt={project.name} />
+            <img src={`/images/mains/${project.id}.gif`} alt={project.name} />
           </div>
           <div className={styles.title}>
             <span>{project.title}</span>
