@@ -42,7 +42,7 @@ export default function Home() {
             <p>MongoDB</p>
           </div>
           <div>
-            <p>Have experimented</p>
+            <p>Have Experienced</p>
             <p>Vue</p>
             <p>Three.js</p>
             <p>GSAP</p>

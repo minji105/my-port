@@ -3,7 +3,7 @@
 :root {
   --color-gray-bg: rgb(246, 246, 246);
   --color-gray-bg-hover: rgb(240, 240, 240);
-  --color-gray-border: rgb(220, 220, 220);
+  --color-gray-border: rgb(230, 230, 230);
   --color-gray-text: rgb(150, 150, 150);
 
   --gap: 32px;
@@ -20,8 +20,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: .9rem;
-  line-height: 1.2rem;
+  /* font-size: .9rem; */
+  line-height: 1.3rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -30,7 +30,7 @@ body {
   }
 
   body {
-    font-size: .8rem;
+    font-size: .85rem;
   }
 }
 
