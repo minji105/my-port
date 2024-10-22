@@ -14,16 +14,23 @@ export default function Home() {
           항상 사용자가 쉽게 접근할 수 있는 인터페이스를 만드는 것을
           목표로 하고 있습니다.</span>
 
-        <div className={styles.icons}>
-          <img src="/images/icons/git.png" alt="" />
-          <img src="/images/icons/mail.png" alt="" />
+        <div className={styles.buttons}>
+          <div className={styles.icons}>
+            <img src="/images/icons/git.png" alt="" />
+            <img src="/images/icons/mail.png" alt="" />
+          </div>
+
+          <button>
+            RESUME
+            <img src="/images/icons/download.png" alt="" />
+          </button>
         </div>
       </div>
 
       <div className={styles.container}>
-        <span>Tech Stack</span>
+        <span className={styles.title}>Tech Stack</span>
 
-        <div className={styles.stack}>
+        <div className={`${styles.stack} ${styles.content}`}>
           <div>
             <p>Mainly Used</p>
             <p>React</p>
@@ -44,29 +51,29 @@ export default function Home() {
       </div>
 
       <div className={styles.container}>
-        <span>Education</span>
+        <span className={styles.title}>Education</span>
 
-        <div>
-          <p>울산대학교 IT융합학과 졸업 (24.02)</p>
+        <div className={styles.content}>
+          <p>울산대학교 IT융합학과 졸업 <span className={styles.date}>(24.02)</span></p>
         </div>
       </div>
 
       <div className={styles.container}>
-        <span>Experience</span>
+        <span className={styles.title}>Experience</span>
 
-        <div>
-          <p>[교내] 글로컬 메타버스 DT 인력양성과정 최우수상 (23.12)</p>
-          <p>[네이버커넥트] 소프트웨어야 놀자 대학생 멘토 (22.05 ~ 22.12)</p>
+        <div className={styles.content}>
+          <p>[교내] 글로컬 메타버스 DT 인력양성과정 최우수상 <span className={styles.date}>(23.12)</span></p>
+          <p>[네이버커넥트] 소프트웨어야 놀자 대학생 멘토 <span className={styles.date}>(22.05 ~ 22.12)</span></p>
         </div>
       </div>
 
       <div className={styles.container}>
-        <span>Certifications</span>
+        <span className={styles.title}>Certificate</span>
 
-        <div>
-          <p>SQLD (24.04)</p>
-          <p>ADsP (24.03)</p>
-          <p>정보처리기사 (23.11)</p>
+        <div className={styles.content}>
+          <p>SQLD <span className={styles.date}>(24.04)</span></p>
+          <p>ADsP <span className={styles.date}>(24.03)</span></p>
+          <p>정보처리기사 <span className={styles.date}>(23.11)</span></p>
         </div>
       </div>
     </>
