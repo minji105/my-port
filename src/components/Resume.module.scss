@@ -1,0 +1,61 @@
+.container {
+  section {
+    margin-top: calc(var(--gap) * 3);
+    position: relative;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  border-top: var(--border);
+  padding: 20px 0;
+  line-height: 1.7rem;
+
+  &.after {
+    border-bottom: var(--border);
+  }
+}
+
+.colName,
+.cell {
+  width: 16vw;
+}
+
+@mixin sideBtn {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  cursor: pointer;
+}
+
+.detail {
+  @include sideBtn();
+  text-decoration: underline;
+}
+
+.resume {
+  .row {
+    border: none;
+  }
+}
+
+.pdf {
+  @include sideBtn();
+  background-color: var(--lime);
+  padding: 0 8px;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.date {
+  color: gray;
+  display: inline-block;
+  width: 8vw;
+  font-size: 1rem;
+}

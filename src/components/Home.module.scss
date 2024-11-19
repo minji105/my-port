@@ -1,0 +1,46 @@
+.container {
+  padding: calc(var(--gap) * 2) var(--gap);
+
+  header {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      font-family: none;
+      font-size: .8rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.info {
+  margin: var(--gap) 0;
+}
+
+.links {
+  margin-top: var(--gap);
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    margin-right: 40px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.updated {
+  font-family: none;
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.updatedDate {
+  background-color: gray;
+  padding: 0 4px;
+  margin-left: 8px;
+  border-radius: 4px;
+  color: #fff;
+}
