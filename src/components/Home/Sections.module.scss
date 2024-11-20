@@ -1,0 +1,116 @@
+.container {
+  section {
+    margin-top: calc(var(--gap) * 3);
+    position: relative;
+
+    h2 {
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  border-top: var(--border);
+  padding: 16px 4px;
+  line-height: 1.7rem;
+
+  &.after {
+    border-bottom: var(--border);
+  }
+}
+
+.rowName {
+  width: 16vw;
+  font-weight: 600;
+}
+
+.cell {
+  width: 18vw;
+  display: flex;
+}
+
+@mixin sideBtn {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  cursor: pointer;
+}
+
+.detail {
+  @include sideBtn();
+  text-decoration: underline;
+}
+
+.resume {
+  .row {
+    border: none;
+    font-weight: 600;
+  }
+}
+
+.pdf {
+  @include sideBtn();
+  background-color: var(--lime);
+  padding: 0 8px;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.date {
+  color: gray;
+  display: inline-block;
+  width: 8vw;
+  font-size: var(--smaller);
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap);
+
+  .row {
+    justify-content: space-between;
+    cursor: pointer;
+
+    p:first-child {
+      font-weight: 500;
+    }
+    p:last-child {
+      font-size: var(--smaller);
+    }
+    
+    &.selected {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}
+
+.projectDetail {
+  position: sticky;
+  top: var(--gap);
+
+  img {
+    width: 100%;
+  }
+}
+
+.viewIcon {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: end;
+  margin-top: 8px;
+
+  p{
+    margin-left: 8px;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

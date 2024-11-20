@@ -5,25 +5,33 @@
     display: flex;
     justify-content: space-between;
 
-    p {
-      font-family: none;
-      font-size: .8rem;
+    h1 {
       font-weight: 600;
+    }
+    P{
+      font-size: var(--smaller);
     }
   }
 }
 
 .info {
   margin: var(--gap) 0;
+  font-weight: 600;
+}
+
+.introduce {
+  font-weight: 600;
 }
 
 .links {
   margin-top: var(--gap);
   display: flex;
   justify-content: space-between;
+  font-size: 1.1rem;
 
   a {
     margin-right: 40px;
+    font-weight: 500;
 
     &:hover {
       text-decoration: none;
@@ -32,9 +40,7 @@
 }
 
 .updated {
-  font-family: none;
-  font-size: .8rem;
-  font-weight: 600;
+  font-size: var(--smaller);
 }
 
 .updatedDate {
@@ -43,4 +49,5 @@
   margin-left: 8px;
   border-radius: 4px;
   color: #fff;
+  font-size: .8rem;
 }
