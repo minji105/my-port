@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './Sections.module.scss';
 import Skills from './Skills';
-import Resume from './Resume';
 import Project from './Project';
 
 export default function Sections() {

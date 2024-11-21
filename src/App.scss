@@ -37,11 +37,31 @@ ul, li {
   padding: 0;
 }
 
+button {
+  background-color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
 ::selection {
   color: #000;
   background-color: var(--lime);
 }
 
 ::-webkit-scrollbar {
-  width: 0;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(187, 187, 187);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background: gray;
 }
