@@ -2,42 +2,48 @@
   {
     "title": "Photographer Portfolio",
     "category": "Web",
-    "Type": "Personal",
+    "type": "Personal",
+    "stack": "React.js, SCSS, GSAP",
     "hover": "/images/joheesu/gif.gif",
     "main": "/images/joheesu/main.png"
   },
   {
     "title": "MyPT",
     "category": "Web",
-    "Type": "Team",
+    "type": "Team",
+    "stack": "React.js, SCSS, Node.js, MongoDB",
     "hover": "/images/joheesu/gif.gif",
     "main": "/images/joheesu/main.png"
   },
   {
     "title": "Todo",
     "category": "Web",
-    "Type": "Pesonal",
+    "type": "Pesonal",
+    "stack": "Vue.js",
     "hover": "/images/joheesu/gif.gif",
     "main": "/images/joheesu/main.png"
   },
   {
     "title": "Cyworld",
     "category": "Web",
-    "Type": "Pesonal",
+    "type": "Pesonal",
+    "stack": "React.js, Next.js, SCSS",
     "hover": "/images/joheesu/gif.gif",
     "main": "/images/joheesu/main.png"
   },
   {
     "title": "Hotel Metaverse",
     "category": "VR/AR",
-    "Type": "Team",
+    "type": "Team",
+    "stack": "Aptero, Node.js, MongoDB",
     "hover": "/images/joheesu/gif.gif",
     "main": "/images/joheesu/main.png"
   },
   {
     "title": "Hand Tracking",
     "category": "VR/AR",
-    "Type": "Personal",
+    "type": "Personal",
+    "stack": "Unity, C++",
     "hover": "/images/joheesu/gif.gif",
     "main": "/images/joheesu/main.png"
   }

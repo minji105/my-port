@@ -76,17 +76,47 @@
     justify-content: space-between;
     cursor: pointer;
 
-    p:first-child {
-      font-weight: 500;
-    }
-    p:last-child {
+    div:last-child {
       font-size: var(--smaller);
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
     }
-    
+
     &.selected {
       background-color: #000;
       color: #fff;
+
+      .title p {
+        transform: translateX(28px);
+      }
+
+      .title::before {
+        opacity: 1;
+      }
     }
+  }
+}
+
+.title {
+  font-weight: 500;
+
+  p {
+    transition: transform .3s ease;
+  }
+
+  &::before {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    left: 8px;
+    border-radius: 100%;
+    background-color: #fff;
+    filter: blur(3px);
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity .5s ease;
   }
 }
 
@@ -99,13 +129,18 @@
   }
 }
 
+.projectInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
 .viewIcon {
   text-transform: uppercase;
   display: flex;
-  justify-content: end;
-  margin-top: 8px;
+  align-items: flex-start;
 
-  p{
+  p {
     margin-left: 8px;
     text-decoration: underline;
 
