@@ -1,3 +1,5 @@
+$rowWidth: 256px;
+
 .container {
   section {
     margin-top: calc(var(--gap) * 3);
@@ -22,7 +24,7 @@
 }
 
 .rowName {
-  width: 16vw;
+  width: $rowWidth;
   font-weight: 600;
 }
 
@@ -43,13 +45,6 @@
   text-decoration: underline;
 }
 
-.resume {
-  .row {
-    border: none;
-    font-weight: 600;
-  }
-}
-
 .pdf {
   @include sideBtn();
   background-color: var(--lime);
@@ -60,10 +55,23 @@
   }
 }
 
+.resume {
+  display: flex;
+  margin-bottom: 20px;
+
+  div:first-child {
+    width: calc($rowWidth - var(--gap));
+    margin-right: var(--gap);
+  }
+}
+
+.resumeTitle {
+  font-weight: 600;
+}
+
 .date {
   color: gray;
   display: inline-block;
-  width: 8vw;
   font-size: var(--smaller);
 }
 

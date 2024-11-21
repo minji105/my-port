@@ -3,24 +3,16 @@ import styles from './Sections.module.scss';
 export default function Sections() {
   return (
     <>
-      <div className={styles.row}>
-        <div className={styles.rowName}>
-          <p>Education</p>
-        </div>
-        <div>
-          <p><p className={styles.date}>2024.02</p>울산대학교 IT융합합과 졸업</p>
-        </div>
+      <h2>Education</h2>
+      <div>
+        <p><p className={styles.date}>2024.02</p>울산대학교 IT융합합과 졸업</p>
       </div>
-      <div className={styles.row}>
-        <div className={styles.rowName}>
-          <p>Certificate</p>
-        </div>
+          <h2>Certificate</h2>
         <div>
           <p><p className={styles.date}>2024.04</p>SQLD</p>
           <p><p className={styles.date}>2024.03</p>ADsP</p>
           <p><p className={styles.date}>2023.11</p>정보처리기사</p>
         </div>
-      </div>
       <div className={styles.row}>
         <div className={styles.rowName}>
           <p>Experience</p>
