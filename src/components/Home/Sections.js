@@ -80,7 +80,7 @@ export default function Sections() {
         </div>
       </section>
 
-      <section>
+      <section id='project-section'>
         <h2>Project</h2>
 
         <Project />
