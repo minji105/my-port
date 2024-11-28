@@ -32,7 +32,6 @@ export default function HandTracking() {
 
         <h1>{project.title}</h1>
         <div className={styles.urls}>
-          <Link to="https://github.com/minji105/joheesu-port">Github</Link>
         </div>
         <section>
           <div>

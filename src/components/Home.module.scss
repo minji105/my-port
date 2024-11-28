@@ -1,5 +1,5 @@
 .container {
-  padding: calc(var(--gap) * 2) var(--gap);
+  padding: var(--gap) var(--gap) 50vh;
 
   header {
     display: flex;
@@ -8,7 +8,8 @@
     h1 {
       font-weight: 600;
     }
-    P{
+
+    P {
       font-size: var(--smaller);
     }
   }
@@ -27,7 +28,7 @@
   margin-top: var(--gap);
   display: flex;
   justify-content: space-between;
-  font-size: 1.1rem;
+  font-size: var(--larger);
 
   a {
     margin-right: 40px;
@@ -50,4 +51,31 @@
   border-radius: 4px;
   color: #fff;
   font-size: .8rem;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    header {
+      flex-direction: column-reverse;
+      align-items: flex-end;
+      gap: var(--gap);
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .links {
+    flex-direction: column;
+    gap: var(--gap);
+
+    a {
+      margin-right: 24px;
+    }
+  }
+
+  .updatedDate {
+    font-size: .7rem;
+  }
 }

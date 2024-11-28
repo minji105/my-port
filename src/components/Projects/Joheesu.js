@@ -59,15 +59,13 @@ export default function Joheesu() {
             </div>
             <p>
               사진작가 조희수의 개인 사이트입니다. 반응형으로 제작하였습니다.<br />
-              메인, 프로젝트 목록, 프로젝트 상세, 연락처
-              총 <button onClick={() => setImageVisibility(!imageVisibility)}><u><i>4개의 페이지로 구성</i></u></button>되어있습니다.<br />
+              메인, 프로젝트 목록, 프로젝트 상세, 연락처 총 4개의 페이지로 구성되어있습니다.<br />
               성능 최적화를 위해 레이아웃 이동 최소화, 이미지 최적화, JS 및 CSS 파일 축소 등을
               진행하였으며 그 결과 메인 페이지는 성능이 71에서 91로, 목록 페이지는 57에서 97로 올랐습니다(lighthouse).
             </p>
           </div>
           <div className={styles.mainImg}>
             <img src={project.main} alt="main" />
-            <img className={`${styles.other} ${imageVisibility ? styles.active : ''}`} src="/images/joheesu/structure.png" alt="" />
           </div>
         </section>
 

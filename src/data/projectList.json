@@ -15,7 +15,8 @@
     "type": "Team",
     "date": "2023.08",
     "stack": "React.js, SCSS, Node.js, MongoDB",
-    "role": "Design, Development",
+    "role": "Design, Full Stack",
+    "url": "/project/Photographer-Portfolio",
     "main": "/images/joheesu/main.png"
   },
   {
@@ -24,26 +25,29 @@
     "type": "Pesonal",
     "date": "2023.08",
     "stack": "Vue.js",
-    "role": "Design, Development",
+    "role": "Development",
+    "url": "/project/Photographer-Portfolio",
     "main": "/images/joheesu/main.png"
   },
   {
     "title": "Cyworld",
     "category": "Web",
     "type": "Pesonal",
-    "date": "2023.08",
-    "stack": "React.js, Next.js, SCSS",
-    "role": "Design, Development",
-    "main": "/images/joheesu/main.png"
+    "date": "2024.08",
+    "stack": "React.js, Next.js, Node.js, MongoDB, SCSS",
+    "role": "Full Stack",
+    "url": "/project/Cyworld",
+    "main": "/images/cyworld/main.png"
   },
   {
     "title": "Hotel Metaverse",
     "category": "VR/AR",
     "type": "Team",
-    "date": "2023.08",
-    "stack": "Aptero, Node.js, MongoDB",
-    "role": "Design, Development",
-    "main": "/images/joheesu/main.png"
+    "date": "2023.09 ~ 2023.12",
+    "stack": "Aptero, HTML, CSS, JS, Node.js, MongoDB",
+    "role": "Full Stack",
+    "url": "/project/Hotel-Metaverse",
+    "main": "/images/HotelMetaverse/gif.gif"
   },
   {
     "title": "Hand Tracking",
