@@ -57,11 +57,14 @@
   .container {
     header {
       flex-direction: column-reverse;
-      align-items: flex-end;
       gap: var(--gap);
 
       h1 {
         font-size: 1.5rem;
+      }
+
+      p {
+        text-align: end;
       }
     }
   }
