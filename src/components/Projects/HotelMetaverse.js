@@ -1,13 +1,12 @@
 import styles from './Project.module.scss';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import projectList from '../../data/projectList.json';
 
 export default function HotelMetaverse() {
   const navigate = useNavigate();
 
-  const location = useLocation();
   const handleBack = () => {
     navigate(-1);
     setTimeout(() => {
@@ -18,7 +17,6 @@ export default function HotelMetaverse() {
     }, 10);
   }
 
-  const [imageVisibility, setImageVisibility] = useState(false);
   const project = projectList[4];
 
   return (
@@ -59,14 +57,11 @@ export default function HotelMetaverse() {
               </ul>
             </div>
             <p>
-            2인으로 팀을 이루어 메타버스 기반 비대면 호텔 플레이스를 만들었습니다.<br />
-            메타버스는 각자 구역을 담당하여 제작하였으며 그 외에 저는 호텔 예약 서비스 제작 및 ppt 제작을 담당했습니다.
+              2인으로 팀을 이루어 메타버스 기반 비대면 호텔 플레이스를 만들었습니다.<br />
+              메타버스는 각자 구역을 담당하여 제작하였으며 그 외에 저는 호텔 예약 서비스 제작 및 ppt 제작을 담당했습니다.
             </p>
           </div>
-          <div className={styles.mainImg}>
-            <img src={project.main} alt="main" />
-            <img className={`${styles.other} ${imageVisibility ? styles.active : ''}`} src="/images/joheesu/structure.png" alt="" />
-          </div>
+          <img src={project.main} alt="main" />
         </section>
 
         <div className={styles.imgContainer}>

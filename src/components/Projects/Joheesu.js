@@ -1,7 +1,7 @@
 import styles from './Project.module.scss';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import React, { useState } from 'react';
+import React from 'react';
 import projectList from '../../data/projectList.json';
 
 export default function Joheesu() {
@@ -17,7 +17,6 @@ export default function Joheesu() {
     }, 10);
   }
 
-  const [imageVisibility, setImageVisibility] = useState(false);
   const project = projectList[0];
 
   return (

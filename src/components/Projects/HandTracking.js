@@ -1,7 +1,6 @@
 import styles from './Project.module.scss';
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import React, { useState } from 'react';
+import React from 'react';
 import projectList from '../../data/projectList.json';
 
 export default function HandTracking() {
@@ -17,7 +16,6 @@ export default function HandTracking() {
     }, 10);
   }
 
-  const [imageVisibility, setImageVisibility] = useState(false);
   const project = projectList[5];
 
   return (
@@ -56,17 +54,15 @@ export default function HandTracking() {
               </ul>
             </div>
             <p>
-              전공과목 '증강현실과 가상현실'의 텀 프로젝트로 제작한 것입니다.<br/>
-              구글의 Mediapipe 프레임워크를 활용하여 웹캠으로 사용자의 손을 인식해 
-              별도의 컨트롤러 없이 가상현실 내에서 상호작용할 수 있습니다. 
-              인식된 손의 랜드마크 좌표를 실시간으로 추출하고 사용자 데이터그램 프로토콜(UDP)을 
-              이용하여 Unity로 전송합니다. Unity에서는 실시간으로 전송받은 
+              전공과목 '증강현실과 가상현실'의 텀 프로젝트로 제작한 것입니다.<br />
+              구글의 Mediapipe 프레임워크를 활용하여 웹캠으로 사용자의 손을 인식해
+              별도의 컨트롤러 없이 가상현실 내에서 상호작용할 수 있습니다.
+              인식된 손의 랜드마크 좌표를 실시간으로 추출하고 사용자 데이터그램 프로토콜(UDP)을
+              이용하여 Unity로 전송합니다. Unity에서는 실시간으로 전송받은
               데이터를 기반으로 랜드마크 좌표에 오브젝트를 생성하여 손 모양을 나타냅니다.
             </p>
           </div>
-          <div className={styles.mainImg}>
-            <img src={project.main} alt="main" />
-          </div>
+          <img src={project.main} alt="main" />
         </section>
 
         <div className={styles.imgContainer}>
