@@ -49,7 +49,7 @@ export default function Sections() {
               </div>
             </div>
             {!isMobile && (
-              <div className={`${styles.projectDetail} ${selectedRow === index ? styles.expanded : ''}`}>
+              <div className={styles.projectDetail}>
                 <img src={projectImg} alt="project img" />
                 <div className={styles.projectInfo}>
                   <p>{projectStack}</p>

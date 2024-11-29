@@ -58,14 +58,6 @@
   }
 }
 
-.mainImg {
-  position: relative;
-
-  img {
-    position: absolute;
-  }
-}
-
 .other {
   visibility: hidden;
 
@@ -86,4 +78,21 @@
 
 .mobile {
   @include layout(3, 8px);
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  .imgContainer {
+    width: 100%;
+  }
 }

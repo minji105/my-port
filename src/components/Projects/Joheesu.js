@@ -64,9 +64,7 @@ export default function Joheesu() {
               진행하였으며 그 결과 메인 페이지는 성능이 71에서 91로, 목록 페이지는 57에서 97로 올랐습니다(lighthouse).
             </p>
           </div>
-          <div className={styles.mainImg}>
-            <img src={project.main} alt="main" />
-          </div>
+          <img src={project.main} alt="main" />
         </section>
 
         <div className={styles.imgContainer}>
