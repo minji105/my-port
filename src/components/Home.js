@@ -26,8 +26,7 @@ export default function Home() {
 
         <div className={styles.links}>
           <div>
-            <Link to="https://dribbble.com/shots/popular/web-design">Github</Link>
-            <Link to="https://dribbble.com/shots/popular/web-design">Instagram</Link>
+            <Link to="https://github.com/minji105">Github</Link>
             <Link to="https://codepen.io/aki-builder/collections/">CodePen</Link>
           </div>
           <p className={styles.updated}>Last Updated

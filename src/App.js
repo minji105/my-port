@@ -5,6 +5,7 @@ import Joheesu from './components/Projects/Joheesu';
 import HandTracking from './components/Projects/HandTracking';
 import HotelMetaverse from './components/Projects/HotelMetaverse';
 import Cyworld from './components/Projects/Cyworld';
+import MyPT from './components/Projects/MyPT';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/project/HandTracking" element={<HandTracking />} />
           <Route path="/project/Hotel-Metaverse" element={<HotelMetaverse />} />
           <Route path="/project/Cyworld" element={<Cyworld />} />
+          <Route path="/project/MyPT" element={<MyPT />} />
         </Routes>
       </Router>
     </>

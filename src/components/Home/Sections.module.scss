@@ -58,13 +58,10 @@
 }
 
 .resume {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: var(--gap);
   margin-bottom: 24px;
-
-  div:first-child {
-    width: 224;
-    margin-right: var(--gap);
-  }
 }
 
 .resumeTitle {
@@ -73,7 +70,7 @@
 
 @media screen and (max-width: 767px) {
   .resume {
-    flex-direction: column;
+    display: block;
   }
 
   .resumeTitle {
@@ -230,6 +227,18 @@
 
     img {
       margin-top: 16px;
+    }
+  }
+  
+  .projectTitle {
+    div:last-child {
+      width: 35%;
+    }
+  }
+
+  .projectInfo {
+    a > svg{
+      margin-bottom: -5px;
     }
   }
 }

@@ -54,10 +54,11 @@ export default function Sections() {
                 <div className={styles.projectInfo}>
                   <p>{projectStack}</p>
                   <div className={styles.viewIcon}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" width="20px">
-                      <path stroke="#000" stroke-width="2" d="M11 1H1v10M15 1h10v10M15 25h10V15M11 25H1V15m12-8v12m6-6H7"></path>
-                    </svg>
-                    <Link to={projectUrl} state={{ fromProject: true }} onClick={() => window.scrollTo(0, 0)}><p>view the project</p></Link>
+                    <Link to={projectUrl} state={{ fromProject: true }} onClick={() => window.scrollTo(0, 0)}>
+                      <svg xmlns="http://www.w3.org/2000/svg" stroke="#fff" viewBox="0 0 26 26" width="20px">
+                        <path stroke="#fff" stroke-width="2" d="M11 1H1v10M15 1h10v10M15 25h10V15M11 25H1V15m12-8v12m6-6H7"></path>
+                      </svg>
+                    </Link>
                   </div>
                 </div>
               </div>

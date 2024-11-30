@@ -13,11 +13,11 @@
     "title": "MyPT",
     "category": "Web",
     "type": "Team",
-    "date": "2023.08",
+    "date": "2022.11 ~ 2023.04",
     "stack": "React.js, SCSS, Node.js, MongoDB",
-    "role": "Design, Full Stack",
-    "url": "/project/Photographer-Portfolio",
-    "main": "/images/joheesu/main.png"
+    "role": "Frontend, Backend",
+    "url": "/project/MyPT",
+    "main": "/images/myPT/gif.gif"
   },
   {
     "title": "Todo",
