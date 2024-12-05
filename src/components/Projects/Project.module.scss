@@ -58,21 +58,15 @@
   }
 }
 
-.other {
-  visibility: hidden;
-
-  &.active {
-    visibility: visible;
-  }
-}
-
 .imgContainer {
-  width: 60vw;
   margin: 160px auto 0;
-  
-  img {
-    width: 100%;
-    margin-bottom: 8px;
+
+  section {
+    margin-bottom: var(--gap);
+  }
+
+  h4 {
+    margin: 0
   }
 }
 
@@ -93,6 +87,9 @@
   }
 
   .imgContainer {
-    width: 100%;
+    section {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }

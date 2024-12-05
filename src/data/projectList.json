@@ -14,27 +14,17 @@
     "category": "Web",
     "type": "Team",
     "date": "2022.11 ~ 2023.04",
-    "stack": "React.js, SCSS, Node.js, MongoDB",
+    "stack": "React.js, SCSS, Node.js, Express.js, MongoDB",
     "role": "Frontend, Backend",
     "url": "/project/MyPT",
     "main": "/images/myPT/gif.gif"
-  },
-  {
-    "title": "Todo",
-    "category": "Web",
-    "type": "Pesonal",
-    "date": "2023.08",
-    "stack": "Vue.js",
-    "role": "Development",
-    "url": "/project/Photographer-Portfolio",
-    "main": "/images/joheesu/main.png"
   },
   {
     "title": "Cyworld",
     "category": "Web",
     "type": "Pesonal",
     "date": "2024.08",
-    "stack": "React.js, Next.js, Node.js, MongoDB, SCSS",
+    "stack": "React.js, Next.js, Node.js Express.js, MongoDB, SCSS",
     "role": "Full Stack",
     "url": "/project/Cyworld",
     "main": "/images/cyworld/main.png"

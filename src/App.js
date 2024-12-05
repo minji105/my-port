@@ -6,10 +6,14 @@ import HandTracking from './components/Projects/HandTracking';
 import HotelMetaverse from './components/Projects/HotelMetaverse';
 import Cyworld from './components/Projects/Cyworld';
 import MyPT from './components/Projects/MyPT';
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <>
+    <Helmet>
+      <title>Resume: 조민지</title>
+    </Helmet>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

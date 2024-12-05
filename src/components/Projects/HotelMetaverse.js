@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import projectList from '../../data/projectList.json';
+import Buttons from '../button/Buttons';
 
 export default function HotelMetaverse() {
   const navigate = useNavigate();
@@ -17,10 +18,12 @@ export default function HotelMetaverse() {
     }, 10);
   }
 
-  const project = projectList[4];
+  const project = projectList[3];
 
   return (
     <>
+      <Buttons></Buttons>
+
       <div className={styles.container}>
         <button onClick={handleBack}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
@@ -65,33 +68,38 @@ export default function HotelMetaverse() {
         </section>
 
         <div className={styles.imgContainer}>
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_1.png" alt="ppt1" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_2.png" alt="ppt2" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_3.png" alt="ppt3" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_4.png" alt="ppt4" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_5.png" alt="ppt5" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_6.png" alt="ppt6" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_7.png" alt="ppt7" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_8.png" alt="ppt8" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_9.png" alt="ppt9" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_10.png" alt="ppt10" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_11.png" alt="ppt11" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_12.png" alt="ppt12" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_13.png" alt="ppt13" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_14.png" alt="ppt14" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_15.png" alt="ppt15" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_16.png" alt="ppt16" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_17.png" alt="ppt17" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_18.png" alt="ppt18" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_19.png" alt="ppt19" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_20.png" alt="ppt20" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_21.png" alt="ppt21" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_22.png" alt="ppt22" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_23.png" alt="ppt23" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_24.png" alt="ppt24" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_25.png" alt="ppt25" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_26.png" alt="ppt26" />
-          <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_27.png" alt="ppt27" />
+          <section>
+            <h4>발표 ppt</h4>
+            <div>
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_1.png" alt="ppt1" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_2.png" alt="ppt2" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_3.png" alt="ppt3" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_4.png" alt="ppt4" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_5.png" alt="ppt5" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_6.png" alt="ppt6" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_7.png" alt="ppt7" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_8.png" alt="ppt8" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_9.png" alt="ppt9" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_10.png" alt="ppt10" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_11.png" alt="ppt11" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_12.png" alt="ppt12" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_13.png" alt="ppt13" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_14.png" alt="ppt14" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_15.png" alt="ppt15" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_16.png" alt="ppt16" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_17.png" alt="ppt17" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_18.png" alt="ppt18" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_19.png" alt="ppt19" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_20.png" alt="ppt20" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_21.png" alt="ppt21" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_22.png" alt="ppt22" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_23.png" alt="ppt23" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_24.png" alt="ppt24" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_25.png" alt="ppt25" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_26.png" alt="ppt26" />
+              <img src="/images/hotelMetaverse/ppt/메타버스-최종-발표_27.png" alt="ppt27" />
+            </div>
+          </section>
         </div>
       </div>
     </>

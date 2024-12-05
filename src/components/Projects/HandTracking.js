@@ -2,6 +2,7 @@ import styles from './Project.module.scss';
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import projectList from '../../data/projectList.json';
+import Buttons from '../button/Buttons';
 
 export default function HandTracking() {
   const navigate = useNavigate();
@@ -16,10 +17,12 @@ export default function HandTracking() {
     }, 10);
   }
 
-  const project = projectList[5];
+  const project = projectList[4];
 
   return (
     <>
+      <Buttons></Buttons>
+
       <div className={styles.container}>
         <button onClick={handleBack}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
@@ -66,16 +69,21 @@ export default function HandTracking() {
         </section>
 
         <div className={styles.imgContainer}>
-          <img src="/images/handTracking/ppt/슬라이드1.png" alt="ppt1" />
-          <img src="/images/handTracking/ppt/슬라이드2.png" alt="ppt2" />
-          <img src="/images/handTracking/ppt/슬라이드3.png" alt="ppt3" />
-          <img src="/images/handTracking/ppt/슬라이드4.png" alt="ppt4" />
-          <img src="/images/handTracking/ppt/슬라이드5.png" alt="ppt5" />
-          <img src="/images/handTracking/ppt/슬라이드6.png" alt="ppt6" />
-          <img src="/images/handTracking/ppt/슬라이드7.png" alt="ppt7" />
-          <img src="/images/handTracking/ppt/슬라이드8.png" alt="ppt8" />
-          <img src="/images/handTracking/ppt/슬라이드9.png" alt="ppt9" />
-          <img src="/images/handTracking/ppt/슬라이드10.png" alt="ppt10" />
+          <section>
+            <h4>발표 ppt</h4>
+            <div>
+              <img src="/images/handTracking/ppt/슬라이드1.png" alt="ppt1" />
+              <img src="/images/handTracking/ppt/슬라이드2.png" alt="ppt2" />
+              <img src="/images/handTracking/ppt/슬라이드3.png" alt="ppt3" />
+              <img src="/images/handTracking/ppt/슬라이드4.png" alt="ppt4" />
+              <img src="/images/handTracking/ppt/슬라이드5.png" alt="ppt5" />
+              <img src="/images/handTracking/ppt/슬라이드6.png" alt="ppt6" />
+              <img src="/images/handTracking/ppt/슬라이드7.png" alt="ppt7" />
+              <img src="/images/handTracking/ppt/슬라이드8.png" alt="ppt8" />
+              <img src="/images/handTracking/ppt/슬라이드9.png" alt="ppt9" />
+              <img src="/images/handTracking/ppt/슬라이드10.png" alt="ppt10" />
+            </div>
+          </section>
         </div>
       </div>
     </>

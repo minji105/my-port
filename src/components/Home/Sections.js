@@ -18,7 +18,6 @@ export default function Sections() {
       <section>
         <div className={styles.sectionTitle}>
           <h2>Education</h2>
-          <p className={styles.pdf}>download (.pdf)</p>
         </div>
 
         <div className={styles.resume}>

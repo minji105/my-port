@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import projectList from '../../data/projectList.json';
+import Buttons from '../button/Buttons';
 
 export default function MyPT() {
   const navigate = useNavigate();
@@ -21,6 +22,8 @@ export default function MyPT() {
 
   return (
     <>
+      <Buttons></Buttons>
+
       <div className={styles.container}>
         <button onClick={handleBack}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
@@ -31,7 +34,7 @@ export default function MyPT() {
 
         <h1>{project.title}</h1>
         <div className={styles.urls}>
-          <Link to="https://github.com/minji105/cyworld">Github</Link>
+          <Link to="https://github.com/minji105/MyPT_capstone_design">Github</Link>
         </div>
         <section>
           <div>
@@ -56,28 +59,64 @@ export default function MyPT() {
               </ul>
             </div>
             <p>
-              2000년대 대표 sns였던 싸이월드를 재현하여 제 미니홈피를 만들었습니다.<br />
-              - 게시물 관리: 로그인 후 게시물 작성, 수정, 삭제가 가능합니다.<br />
-              - 게시물 작성: React Quill을 사용하여 에디터를 구현했습니다.<br />
-              - 프로젝트: React Markdown을 사용해 깃허브 리드미 파일을 로드합니다.<br />
-              - 방명록: 누구나 방명록을 남길 수 있습니다. <br />
-              - 방문자 통계: 오늘 방문자 수와 총 방문자 수를 확인할 수 있습니다.<br />
+              담당 부분)<br />
+              - 서버 및 데이터 베이스 연결 <br />
+              - RESTful API 구축 및 연동<br />
+              - 사용자 관리: 회원가입, 로그인(bcrypt로 비밀번호 해시 비교, jwt 토큰 반환)<br />
+              - 게시판 관리: 게시물 등록, 목록 조회, 상세 조회, 수정, 삭제<br />
+              - 운동 기록 관리: 운동 종료 시 운동 기록 자동 저장, 기록 조회<br />
+              - Context API로 로그인 상태와 사용자 ID를 전역 관리
             </p>
           </div>
           <img src={project.main} alt="main" />
         </section>
 
         <div className={styles.imgContainer}>
-          <img src="/images/myPT/main.png" alt="" />
-          <img src="/images/myPT/login.png" alt="" />
-          <img src="/images/myPT/register.png" alt="" />
-          <img src="/images/myPT/setting.png" alt="" />
-          <img src="/images/myPT/exercise1.png" alt="" />
-          <img src="/images/myPT/exercise2.png" alt="" />
-          <img src="/images/myPT/tutorial.png" alt="" />
-          <img src="/images/myPT/community.png" alt="" />
-          <img src="/images/myPT/post.png" alt="" />
-          <img src="/images/myPT/record.png" alt="" />
+          <section>
+            <h4>메인 페이지</h4>
+            <div>
+              <img src="/images/myPT/main.png" alt="" />
+              <img src="/images/myPT/setting.png" alt="" />
+            </div>
+          </section>
+          <section>
+            <h4>로그인 페이지</h4>
+            <div>
+              <img src="/images/myPT/login.png" alt="" />
+            </div>
+          </section>
+          <section>
+            <h4>회원가입 페이지</h4>
+            <div>
+              <img src="/images/myPT/register.png" alt="" />
+            </div>
+          </section>
+          <section>
+            <h4>운동 페이지</h4>
+            <div>
+              <img src="/images/myPT/exercise1.png" alt="" />
+              <img src="/images/myPT/exercise2.png" alt="" />
+            </div>
+          </section>
+          <section>
+            <h4>기록 페이지</h4>
+            <div>
+              <img src="/images/myPT/record.png" alt="" />
+            </div>
+          </section>
+          <section>
+            <h4>튜토리얼 페이지</h4>
+            <div>
+              <img src="/images/myPT/tutorial.png" alt="" />
+            </div>
+          </section>
+          <section>
+            <h4>게시판 페이지</h4>
+            <div>
+              <img src="/images/myPT/community.png" alt="" />
+              <img src="/images/myPT/post.png" alt="" />
+            </div>
+          </section>
         </div>
       </div>
     </>

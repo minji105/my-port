@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import projectList from '../../data/projectList.json';
+import Buttons from '../button/Buttons';
 
 export default function Joheesu() {
   const navigate = useNavigate();
@@ -21,6 +22,8 @@ export default function Joheesu() {
 
   return (
     <>
+      <Buttons />
+
       <div className={styles.container}>
         <button onClick={handleBack}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
@@ -67,23 +70,61 @@ export default function Joheesu() {
         </section>
 
         <div className={styles.imgContainer}>
-          <img src="/images/joheesu/pc-main.png" alt="" />
-          <img src="/images/joheesu/pc-list.png" alt="" />
-          <img src="/images/joheesu/pc-detail.png" alt="" />
-          <img src="/images/joheesu/pc-detail2.png" alt="" />
-          <img src="/images/joheesu/pc-contact.png" alt="" />
-          <img src="/images/joheesu/list.gif" alt="" />
-          <div className={styles.mobile}>
-            <img src="/images/joheesu/mb-main.png" alt="" />
-            <img src="/images/joheesu/mb-list.png" alt="" />
-            <img src="/images/joheesu/mb-detail.png" alt="" />
-            <img src="/images/joheesu/mb-detail2.png" alt="" />
-            <img src="/images/joheesu/mb-contact.png" alt="" />
-          </div>
-          <div className={styles.mobile}>
-            <img src="/images/joheesu/mb-main-alert.jpg" alt="" />
-            <img src="/images/joheesu/mb-detail-alert.jpg" alt="" />
-          </div>
+          <section>
+            <p>
+              <h4>메인 페이지</h4>
+              gsap을 이용하여 스크롤 시 이미지 전환 효과를 넣었습니다.<br />
+              클릭하면 해당 프로젝트 페이지로 이동합니다.
+            </p>
+            <img src="/images/joheesu/main.gif" alt="" />
+          </section>
+          <section>
+            <p>
+              <h4>목록 페이지</h4>
+              카테고리를 클릭하면 해당 카테고리 목록으로 필터링됩니다.<br />
+              상세 페이지에서는 목록 형식이나 슬라이더 형식으로 이미지를 볼 수 있고,
+              모바일에서는 화살표 버튼 대신 스와이핑해서 좌우로 넘길 수 있도록 하였습니다. (react-swipeable)
+            </p>
+            <div>
+              <img src="/images/joheesu/pc-list.png" alt="" />
+              <img src="/images/joheesu/list.gif" alt="" />
+            </div>
+          </section>
+          <section>
+            <p>
+              <h4>상세 페이지</h4>
+              그리드 형식이나 슬라이더 형식으로 이미지를 볼 수 있습니다.<br />
+              모바일에서는 슬라이더를 화살표 버튼 대신 스와이핑해서 좌우로 넘길 수 있도록 하였습니다. (react-swipeable)
+            </p>
+            <div>
+              <img src="/images/joheesu/pc-detail.png" alt="" />
+              <img src="/images/joheesu/pc-detail2.png" alt="" />
+            </div>
+          </section>
+          <section>
+            <p>
+              <h4>연락처 페이지</h4>
+            </p>
+            <div>
+              <img src="/images/joheesu/pc-contact.png" alt="" />
+            </div>
+          </section>
+          <section>
+            <p>
+              <h4>모바일</h4>
+              모바일에서는 스와이프가 적용되는 페이지에 알림이 나타납니다.<br />
+              스토리지 키를 사용하여 사이트 접속 후 최초 1회만 나타나도록 하였습니다.
+            </p>
+            <div>
+              <div className={styles.mobile}>
+                <img src="/images/joheesu/mb-main-alert.jpg" alt="" />
+                <img src="/images/joheesu/mb-list.png" alt="" />
+                <img src="/images/joheesu/mb-detail.png" alt="" />
+                <img src="/images/joheesu/mb-detail-alert.jpg" alt="" />
+                <img src="/images/joheesu/mb-contact.png" alt="" />
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </>
