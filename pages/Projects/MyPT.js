@@ -1,5 +1,4 @@
 import styles from '../styling/Project.module.scss';
-import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import React from 'react';
 import projectList from '../../data/projectList.json';
