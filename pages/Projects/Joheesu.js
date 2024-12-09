@@ -18,7 +18,7 @@ export default function Joheesu() {
 
         <h1>{project.title}</h1>
         <div className={styles.urls}>
-          <Link href="https://hsphohrefgraphy.site/">Visit Site</Link>
+          <Link href="https://hsphotography.site/">Visit Site</Link>
           <Link href="https://github.com/minji105/joheesu-port">Github</Link>
         </div>
         <section>
