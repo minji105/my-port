@@ -18,8 +18,8 @@ export default function Cyworld() {
 
         <h1>{project.title}</h1>
         <div className={styles.urls}>
-          <Link href="https://courageous-taffy-868429.netlify.app/">Visit Site</Link>
-          <Link href="https://github.com/minji105/cyworld">Github</Link>
+          <Link href="https://courageous-taffy-868429.netlify.app/" target="_blank">Visit Site</Link>
+          <Link href="https://github.com/minji105/cyworld" target="_blank">Github</Link>
         </div>
         <section>
           <div>

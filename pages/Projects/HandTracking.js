@@ -1,12 +1,12 @@
 import styles from '../styling/Project.module.scss';
-import { useParams } from 'next/navigation';
+import Link from 'next/link';
 import React from 'react';
 import projectList from '../../data/projectList.json';
 import Back from '../../components/button/Back';
 import Buttons from '../../components/button/Buttons';
 
 export default function HandTracking() {
-  const project = projectList[4];
+  const project = projectList[5];
 
   return (
     <>
@@ -17,6 +17,7 @@ export default function HandTracking() {
 
         <h1>{project.title}</h1>
         <div className={styles.urls}>
+          <Link href="/images/handTracking/handtracking-ppt.pdf" target="_blank">PPT</Link>
         </div>
         <section>
           <div>
@@ -51,24 +52,6 @@ export default function HandTracking() {
           </div>
           <img src={project.main} alt="main" />
         </section>
-
-        <div className={styles.imgContainer}>
-          <section>
-            <h4>발표 ppt</h4>
-            <div>
-              <img src="/images/handTracking/ppt/슬라이드1.png" alt="ppt1" />
-              <img src="/images/handTracking/ppt/슬라이드2.png" alt="ppt2" />
-              <img src="/images/handTracking/ppt/슬라이드3.png" alt="ppt3" />
-              <img src="/images/handTracking/ppt/슬라이드4.png" alt="ppt4" />
-              <img src="/images/handTracking/ppt/슬라이드5.png" alt="ppt5" />
-              <img src="/images/handTracking/ppt/슬라이드6.png" alt="ppt6" />
-              <img src="/images/handTracking/ppt/슬라이드7.png" alt="ppt7" />
-              <img src="/images/handTracking/ppt/슬라이드8.png" alt="ppt8" />
-              <img src="/images/handTracking/ppt/슬라이드9.png" alt="ppt9" />
-              <img src="/images/handTracking/ppt/슬라이드10.png" alt="ppt10" />
-            </div>
-          </section>
-        </div>
       </div>
     </>
   )

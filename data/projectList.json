@@ -4,49 +4,96 @@
     "category": "Web",
     "type": "Personal",
     "date": "2023.08",
-    "stack": "React.js, SCSS, GSAP",
-    "role": "Design, Development",
+    "stack": [
+      "React.js",
+      "sass",
+      "GSAP"
+    ],
+    "role": "Development",
     "url": "/Projects/Joheesu",
-    "main": "/images/joheesu/gif.gif"
+    "main": "/images/joheesu/gif.gif",
+    "explain": "사진작가 조희수의 개인 사이트입니다."
   },
   {
     "title": "MyPT",
     "category": "Web",
     "type": "Team",
     "date": "2022.11 ~ 2023.04",
-    "stack": "React.js, SCSS, Node.js, Express.js, MongoDB",
+    "stack": [
+      "React.js",
+      "sass",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
     "role": "Frontend, Backend",
     "url": "/Projects/MyPT",
-    "main": "/images/myPT/gif.gif"
+    "main": "/images/myPT/gif.gif",
+    "explain": "사용자의 자세를 인식해 운동 자세에 대해 피드백을 하는 운동 사이트입니다. 프론트 및 백엔드를 담당하였습니다."
   },
   {
     "title": "Cyworld",
     "category": "Web",
     "type": "Pesonal",
     "date": "2024.08",
-    "stack": "React.js, Next.js, Node.js Express.js, MongoDB, SCSS",
-    "role": "Full Stack",
+    "stack": [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "sass"
+    ],
+    "role": "Development",
     "url": "/Projects/Cyworld",
-    "main": "/images/cyworld/main.png"
+    "main": "/images/cyworld/main.png",
+    "explain": "싸이월드를 재현하여 만든 미니홈피입니다."
+  },
+  {
+    "title": "Portfolio Website",
+    "category": "Web",
+    "type": "Pesonal",
+    "date": "2024.11",
+    "stack": [
+      "React.js",
+      "Next.js",
+      "sass"
+    ],
+    "role": "Development",
+    "main": "/images/chominji/main.png",
+    "explain": "현재 사이트입니다."
   },
   {
     "title": "Hotel Metaverse",
     "category": "VR/AR",
     "type": "Team",
     "date": "2023.09 ~ 2023.12",
-    "stack": "Aptero, HTML, CSS, JS, Node.js, MongoDB",
+    "stack": [
+      "Aptero",
+      "HTML",
+      "CSS",
+      "JS",
+      "Node.js",
+      "MongoDB"
+    ],
     "role": "Full Stack",
     "url": "/Projects/HotelMetaverse",
-    "main": "/images/HotelMetaverse/gif.gif"
+    "main": "/images/HotelMetaverse/gif.gif",
+    "explain": "호텔 메타버스를 통한 비대면 서비스 플랫폼입니다. 메타버스 구현과 예약 페이지를 담당하였습니다."
   },
   {
     "title": "Hand Tracking",
     "category": "VR/AR",
     "type": "Personal",
     "date": "2022.12",
-    "stack": "Unity, C#, Python",
+    "stack": [
+      "Unity",
+      "C#",
+      "Python"
+    ],
     "role": "Development",
     "url": "/Projects/HandTracking",
-    "main": "/images/HandTracking/gif.gif"
+    "main": "/images/HandTracking/gif.gif",
+    "explain": "가상현실 내에서 사용자의 손을 실시간으로 추적하여 나타냅니다."
   }
 ]
