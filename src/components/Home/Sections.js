@@ -9,7 +9,6 @@ export default function Sections() {
       <section>
         <div className={styles.sectionTitle}>
           <h2>Skills</h2>
-          <p>detail</p>
         </div>
 
         <Skills />

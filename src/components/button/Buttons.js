@@ -28,7 +28,7 @@ export default function Buttons() {
     const handleScroll = () => {
       if (window.scrollY >= window.innerHeight)
         setShowButtons(true);
-      else setShowButtons(false);
+      else setShowButtons(false); 
     }
 
     window.addEventListener("scroll", handleScroll);
