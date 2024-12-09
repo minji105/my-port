@@ -4,11 +4,7 @@
     "category": "Web",
     "type": "Personal",
     "date": "2023.08",
-    "stack": [
-      "React.js",
-      "sass",
-      "GSAP"
-    ],
+    "stack": ["React.js", "sass", "GSAP"],
     "role": "Development",
     "url": "/Projects/Joheesu",
     "main": "/images/joheesu/gif.gif",
@@ -19,13 +15,7 @@
     "category": "Web",
     "type": "Team",
     "date": "2022.11 ~ 2023.04",
-    "stack": [
-      "React.js",
-      "sass",
-      "Node.js",
-      "Express.js",
-      "MongoDB"
-    ],
+    "stack": ["React.js", "sass", "Node.js", "Express.js", "MongoDB"],
     "role": "Frontend, Backend",
     "url": "/Projects/MyPT",
     "main": "/images/myPT/gif.gif",
@@ -36,14 +26,7 @@
     "category": "Web",
     "type": "Pesonal",
     "date": "2024.08",
-    "stack": [
-      "React.js",
-      "Next.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "sass"
-    ],
+    "stack": ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "sass"],
     "role": "Development",
     "url": "/Projects/Cyworld",
     "main": "/images/cyworld/main.png",
@@ -54,12 +37,9 @@
     "category": "Web",
     "type": "Pesonal",
     "date": "2024.11",
-    "stack": [
-      "React.js",
-      "Next.js",
-      "sass"
-    ],
+    "stack": ["React.js", "Next.js", "sass"],
     "role": "Development",
+    "url": "none",
     "main": "/images/chominji/main.png",
     "explain": "현재 사이트입니다."
   },
@@ -68,14 +48,7 @@
     "category": "VR/AR",
     "type": "Team",
     "date": "2023.09 ~ 2023.12",
-    "stack": [
-      "Aptero",
-      "HTML",
-      "CSS",
-      "JS",
-      "Node.js",
-      "MongoDB"
-    ],
+    "stack": ["Aptero", "HTML", "CSS", "JS", "Node.js", "MongoDB"],
     "role": "Full Stack",
     "url": "/Projects/HotelMetaverse",
     "main": "/images/HotelMetaverse/gif.gif",
@@ -86,11 +59,7 @@
     "category": "VR/AR",
     "type": "Personal",
     "date": "2022.12",
-    "stack": [
-      "Unity",
-      "C#",
-      "Python"
-    ],
+    "stack": ["Unity", "C#", "Python"],
     "role": "Development",
     "url": "/Projects/HandTracking",
     "main": "/images/HandTracking/gif.gif",
