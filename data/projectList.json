@@ -8,7 +8,7 @@
     "role": "Development",
     "url": "/Projects/Joheesu",
     "main": "/images/joheesu/gif.gif",
-    "explain": "사진작가 조희수의 개인 사이트입니다."
+    "explain": "사진작가 조희수의 개인 사이트입니다. 반응형으로 제작하였습니다."
   },
   {
     "title": "MyPT",
@@ -41,7 +41,7 @@
     "role": "Development",
     "url": "none",
     "main": "/images/chominji/main.png",
-    "explain": "현재 사이트입니다."
+    "explain": "현재 사이트입니다. 반응형으로 제작하였습니다."
   },
   {
     "title": "Hotel Metaverse",
