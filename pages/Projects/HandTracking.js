@@ -37,7 +37,11 @@ export default function HandTracking() {
                 </li>
                 <li>
                   <p>Skill</p>
-                  <p>{project.stack}</p>
+                  <div>
+                    {project.stack.map((item, index) => (
+                      <span className={styles.skillName}>{item}</span>
+                    ))}
+                  </div>
                 </li>
               </ul>
             </div>

@@ -26,7 +26,7 @@
     "category": "Web",
     "type": "Pesonal",
     "date": "2024.08",
-    "stack": ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "sass"],
+    "stack": ["React.js", "Next.js", "MongoDB", "sass"],
     "role": "Development",
     "url": "/Projects/Cyworld",
     "main": "/images/cyworld/main.png",
