@@ -18,7 +18,7 @@ export default function Cyworld() {
 
         <h1>{project.title}</h1>
         <div className={styles.urls}>
-          <Link href="https://courageous-taffy-868429.netlify.app/" target="_blank">Visit Site</Link>
+          <Link href="https://cyworld-415a6ab2e69e.herokuapp.com/" target="_blank">Visit Site</Link>
           <Link href="https://github.com/minji105/cyworld" target="_blank">Github</Link>
         </div>
         <section>
