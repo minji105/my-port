@@ -20,7 +20,7 @@ export default function MyPT() {
           <Link href="https://github.com/minji105/MyPT_capstone_design">Github</Link>
         </div>
         <section>
-          <div>
+          <div className={styles.left}>
             <div className={styles.info}>
               <ul>
                 <li>
@@ -59,51 +59,16 @@ export default function MyPT() {
         </section>
 
         <div className={styles.imgContainer}>
-          <section>
-            <h4>메인 페이지</h4>
-            <div>
-              <img src="/images/myPT/main.png" alt="" />
-              <img src="/images/myPT/setting.png" alt="" />
-            </div>
-          </section>
-          <section>
-            <h4>로그인 페이지</h4>
-            <div>
-              <img src="/images/myPT/login.png" alt="" />
-            </div>
-          </section>
-          <section>
-            <h4>회원가입 페이지</h4>
-            <div>
-              <img src="/images/myPT/register.png" alt="" />
-            </div>
-          </section>
-          <section>
-            <h4>운동 페이지</h4>
-            <div>
-              <img src="/images/myPT/exercise1.png" alt="" />
-              <img src="/images/myPT/exercise2.png" alt="" />
-            </div>
-          </section>
-          <section>
-            <h4>기록 페이지</h4>
-            <div>
-              <img src="/images/myPT/record.png" alt="" />
-            </div>
-          </section>
-          <section>
-            <h4>튜토리얼 페이지</h4>
-            <div>
-              <img src="/images/myPT/tutorial.png" alt="" />
-            </div>
-          </section>
-          <section>
-            <h4>게시판 페이지</h4>
-            <div>
-              <img src="/images/myPT/community.png" alt="" />
-              <img src="/images/myPT/post.png" alt="" />
-            </div>
-          </section>
+          <img src="/images/myPT/main.png" alt="MyPT main" />
+          <img src="/images/myPT/setting.png" alt="MyPT main" />
+          <img src="/images/myPT/login.png" alt="MyPT login" />
+          <img src="/images/myPT/register.png" alt="MyPT register" />
+          <img src="/images/myPT/exercise1.png" alt="MyPT exercise1" />
+          <img src="/images/myPT/exercise2.png" alt="MyPT exercise2" />
+          <img src="/images/myPT/record.png" alt="MyPT record" />
+          <img src="/images/myPT/tutorial.png" alt="MyPT tutorial" />
+          <img src="/images/myPT/community.png" alt="MyPT community" />
+          <img src="/images/myPT/post.png" alt="MyPT post" />
         </div>
       </div>
     </>

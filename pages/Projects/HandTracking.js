@@ -20,7 +20,7 @@ export default function HandTracking() {
           <Link href="/images/handTracking/handtracking-ppt.pdf" target="_blank">PPT</Link>
         </div>
         <section>
-          <div>
+        <div className={styles.left}>
             <div className={styles.info}>
               <ul>
                 <li>

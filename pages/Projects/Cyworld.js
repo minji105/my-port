@@ -22,7 +22,7 @@ export default function Cyworld() {
           <Link href="https://github.com/minji105/cyworld" target="_blank">Github</Link>
         </div>
         <section>
-          <div>
+          <div className={styles.left}>
             <div className={styles.info}>
               <ul>
                 <li>
@@ -54,41 +54,21 @@ export default function Cyworld() {
               - 프로젝트: React Markdown을 사용해 깃허브 리드미 파일을 로드합니다.<br />
               - 방명록: 누구나 방명록을 남길 수 있습니다. <br />
               - 방문자 통계: 오늘 방문자 수와 총 방문자 수를 저장합니다.<br />
+              - 테스트용 pw: 1111
             </p>
           </div>
           <img src={project.main} alt="main" />
         </section>
 
         <div className={styles.imgContainer}>
-          <section>
-            <h4>메인 페이지</h4>
-            <img src="/images/cyworld/main.png" alt="" />
-          </section>
-          <section>
-            <h4>프로필 페이지</h4>
-            <img src="/images/cyworld/profile.png" alt="" />
-          </section>
-          <section>
-            <h4>프로젝트 페이지</h4>
-            <div>
-              <img src="/images/cyworld/project.png" alt="" />
-              <img src="/images/cyworld/projectDetail.png" alt="" />
-            </div>
-          </section>
-          <section>
-            <h4>게시판 페이지</h4>
-            <div>
-              <img src="/images/cyworld/board.png" alt="" />
-              <img src="/images/cyworld/post.png" alt="" />
-              <img src="/images/cyworld/postView.png" alt="" />
-            </div>
-          </section>
-          <section>
-            <h4>방명록 페이지</h4>
-            <div>
-              <img src="/images/cyworld/visitor.png" alt="" />
-            </div>
-          </section>
+          <img src="/images/cyworld/main.png" alt="main" />
+          <img src="/images/cyworld/profile.png" alt="profile" />
+          <img src="/images/cyworld/project.png" alt="project" />
+          <img src="/images/cyworld/projectDetail.png" alt="projectDetail" />
+          <img src="/images/cyworld/board.png" alt="board" />
+          <img src="/images/cyworld/post.png" alt="post" />
+          <img src="/images/cyworld/postView.png" alt="postView" />
+          <img src="/images/cyworld/visitor.png" alt="visitor" />
         </div>
       </div>
     </>

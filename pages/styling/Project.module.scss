@@ -7,14 +7,25 @@
   }
 
   section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    align-items: flex-start;
     gap: var(--gap);
 
     img {
       width: 100%;
+      max-width: 50%;
+      object-fit: contain;
+      flex: 1;
     }
   }
+}
+
+.left {
+  flex: 1;
+}
+
+.explain {
+  line-height: 1.5rem;
 }
 
 .urls {
@@ -36,6 +47,7 @@
 
   ul {
     list-style: none;
+    padding: 0;
 
     li {
       padding: 16px 0;
@@ -56,13 +68,10 @@
 
 .imgContainer {
   margin: 160px auto 0;
+  width: 80%;
 
-  section {
-    margin-bottom: var(--gap);
-  }
-
-  h4 {
-    margin: 0
+  img {
+    width: 100%;
   }
 }
 
@@ -81,14 +90,15 @@
     section {
       display: flex;
       flex-direction: column-reverse;
+
+      img {
+        max-width: 100%;
+      }
     }
   }
 
   .imgContainer {
-    section {
-      display: flex;
-      flex-direction: column;
-    }
+    width: 100%;
   }
 }
 

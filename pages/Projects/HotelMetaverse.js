@@ -23,7 +23,7 @@ export default function HotelMetaverse() {
           <Link href="/images/hotelMetaverse/메타버스-최종-발표.pdf" target="_blank">PPT</Link>
         </div>
         <section>
-          <div>
+        <div className={styles.left}>
             <div className={styles.info}>
               <ul>
                 <li>
