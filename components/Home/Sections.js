@@ -14,6 +14,14 @@ export default function Sections() {
         <Skills />
       </section>
 
+      <section id='project-section'>
+        <div className={styles.sectionTitle}>
+          <h2>Project</h2>
+        </div>
+
+        <Project />
+      </section>
+
       <section>
         <div className={styles.sectionTitle}>
           <h2>Education</h2>
@@ -33,7 +41,7 @@ export default function Sections() {
         </div>
 
         <div className={styles.resume}>
-          <div>
+          <div className={styles.left}>
             <p className={styles.date}>2023.09 ~ 2023.12</p>
             <p className={styles.resumeTitle}>글로컬 메타버스 DT 인력양성과정</p>
             <p className={styles.date}>울산대학교</p>
@@ -45,7 +53,7 @@ export default function Sections() {
         </div>
 
         <div className={styles.resume}>
-          <div>
+          <div className={styles.left}>
             <p className={styles.date}>2022.05 ~ 2022.12</p>
             <p className={styles.resumeTitle}>소프트웨어야 놀자 대학생 멘토</p>
             <p className={styles.date}>네이버 커넥트재단</p>
@@ -57,7 +65,7 @@ export default function Sections() {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className={styles.sectionTitle}>
           <h2>Certificate</h2>
         </div>
@@ -82,15 +90,7 @@ export default function Sections() {
             <p className={styles.resumeTitle}>정보처리기사</p>
           </div>
         </div>
-      </section>
-
-      <section id='project-section'>
-        <div className={styles.sectionTitle}>
-          <h2>Project</h2>
-        </div>
-
-        <Project />
-      </section>
+      </section> */}
     </div>
   )
 }

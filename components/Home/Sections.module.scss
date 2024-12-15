@@ -14,16 +14,6 @@
   h2 {
     font-weight: 500;
   }
-
-  p {
-    cursor: pointer;
-    text-decoration: underline;
-
-    &:hover {
-      text-decoration: none;
-      background-color: transparent;
-    }
-  }
 }
 
 .row {
@@ -37,26 +27,18 @@
   }
 }
 
-.rowName {
-  width: 18vw;
-  font-weight: 600;
-}
-
-.cell {
-  ul {
-    display: flex;
-
-    li {
-      width: 20vw;
-    }
-  }
-}
-
 .resume {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+  display: flex;
   gap: var(--gap);
   margin-bottom: 24px;
+}
+
+.left {
+  flex: 1;
+}
+
+.explain {
+  flex: 3;
 }
 
 .resumeTitle {
