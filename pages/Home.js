@@ -17,11 +17,9 @@ export default function Home() {
         </p>
 
         <p className={styles.introduce}>
-          캡스톤 디자인을 진행하면서 웹 개발에 흥미를 갖게 되었고,
-          졸업 후 프론트엔드를 집중적으로 공부하고 있습니다.
-          <br />
-          다양한 기술을 학습하고 적용하는 것에 열정을 가지고 있으며,
-          이를 바탕으로 완성도 높은 웹 경험을 제공하는 개발자로 발전하는 것이 목표입니다.
+          직관적인 UI 제공과 완성도 높은 웹을 제공하는 개발자가 되고자 노력하고 있습니다.<br/>
+          깔끔하고 효율적인 코드를 지향하며 항상 개선하고 있습니다.<br/>
+          협업에서 적극적인 의사소통의 중요성을 알고 있습니다.
         </p>
 
         <div className={styles.links}>
@@ -30,7 +28,7 @@ export default function Home() {
             <Link href="https://codepen.io/aki-builder/collections/">CodePen</Link>
           </div>
           <p className={styles.updated}>Last Updated
-            <span className={styles.updatedDate}>24.11.18</span>
+            <span className={styles.updatedDate}>24.12.16</span>
           </p>
         </div>
 
