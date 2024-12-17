@@ -1,25 +1,25 @@
 [
   {
-    "title": "Photographer Portfolio",
+    "title": "Milwaukee Art Museum Clone",
     "category": "Web",
-    "type": "Personal",
-    "date": "2023.08",
-    "stack": ["React.js", "sass", "GSAP"],
+    "type": "Pesonal",
+    "date": "2024.12.17 ~",
+    "stack": ["HTML", "CSS", "JS"],
     "role": "Development",
-    "url": "/Projects/Joheesu",
-    "main": "/images/joheesu/gif.gif",
-    "explain": "사진작가 조희수의 개인 사이트입니다. 반응형으로 제작하였습니다."
+    "url": "/Projects/Museum",
+    "main": "/images/museum/main.gif",
+    "explain": "Milwaukee Art Museum 페이지 클론코딩 - 현재 제작중입니다."
   },
   {
-    "title": "MyPT",
+    "title": "Portfolio Website",
     "category": "Web",
-    "type": "Team",
-    "date": "2022.11 ~ 2023.04",
-    "stack": ["React.js", "sass", "Node.js", "Express.js", "MongoDB"],
-    "role": "Frontend, Backend",
-    "url": "/Projects/MyPT",
-    "main": "/images/myPT/gif.gif",
-    "explain": "사용자의 자세를 인식해 운동 자세에 대해 피드백을 하는 운동 사이트입니다. 프론트 및 백엔드를 담당하였습니다."
+    "type": "Pesonal",
+    "date": "2024.11",
+    "stack": ["React.js", "Next.js", "sass", "반응형"],
+    "role": "Development",
+    "url": "none",
+    "main": "/images/chominji/main.png",
+    "explain": "현재 사이트입니다."
   },
   {
     "title": "Cyworld",
@@ -33,26 +33,26 @@
     "explain": "싸이월드를 재현하여 만든 미니홈피입니다."
   },
   {
-    "title": "Portfolio Website",
+    "title": "Photographer Portfolio",
     "category": "Web",
-    "type": "Pesonal",
-    "date": "2024.11",
-    "stack": ["React.js", "Next.js", "sass"],
+    "type": "Personal",
+    "date": "2023.08",
+    "stack": ["React.js", "sass", "GSAP", "반응형"],
     "role": "Development",
-    "url": "none",
-    "main": "/images/chominji/main.png",
-    "explain": "현재 사이트입니다. 반응형으로 제작하였습니다."
+    "url": "/Projects/Joheesu",
+    "main": "/images/joheesu/gif.gif",
+    "explain": "사진작가 조희수의 개인 사이트입니다."
   },
   {
-    "title": "Milwaukee Art Museum Clone",
+    "title": "MyPT",
     "category": "Web",
-    "type": "Pesonal",
-    "date": "2024.12.17 ~",
-    "stack": ["HTML", "CSS", "JS"],
-    "role": "Development",
-    "url": "/Projects/Museum",
-    "main": "/images/museum/main.gif",
-    "explain": "Milwaukee Art Museum 페이지 클론코딩 - 현재 제작중입니다."
+    "type": "Team",
+    "date": "2022.11 ~ 2023.04",
+    "stack": ["React.js", "sass", "Node.js", "Express.js", "MongoDB"],
+    "role": "Frontend, Backend",
+    "url": "/Projects/MyPT",
+    "main": "/images/myPT/gif.gif",
+    "explain": "사용자의 자세를 인식해 운동 자세에 대해 피드백을 하는 운동 사이트입니다. 프론트 및 백엔드를 담당하였습니다."
   },
   {
     "title": "Hotel Metaverse",

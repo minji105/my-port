@@ -2,7 +2,6 @@
 
 :root {
   --gap: 32px;
-  --lime: rgb(199, 255, 152);
   --lightgray: rgb(236, 236, 236);
   --border: 2px #000 solid;
   --smaller: .85rem;
@@ -61,7 +60,7 @@ button {
 
 ::selection {
   color: #000;
-  background-color: var(--lime);
+  background-color: rgb(222, 231, 245);
 }
 
 ::-webkit-scrollbar {

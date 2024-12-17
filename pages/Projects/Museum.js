@@ -7,7 +7,7 @@ import Back from '../../components/button/Back';
 import Buttons from '../../components/button/Buttons';
 
 export default function Museum() {
-  const project = projectList[4];
+  const project = projectList[0];
 
   return (
     <>

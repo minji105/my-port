@@ -6,7 +6,7 @@ import Back from '../../components/button/Back';
 import Buttons from '../../components/button/Buttons';
 
 export default function MyPT() {
-  const project = projectList[1];
+  const project = projectList[4];
 
   return (
     <>

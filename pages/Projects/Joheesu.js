@@ -7,7 +7,7 @@ import Back from '../../components/button/Back';
 import Buttons from '../../components/button/Buttons';
 
 export default function Joheesu() {
-  const project = projectList[0];
+  const project = projectList[3];
 
   return (
     <>

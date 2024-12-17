@@ -91,7 +91,7 @@ export default function Sections() {
 
             <div className={`${projectTitle === "Portfolio Website" ? styles.hide : ""} ${styles.viewIcon}`}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" width="20px">
-                <path stroke="#000" strokeWidth="2" d="M11 1H1v10M15 1h10v10M15 25h10V15M11 25H1V15m12-8v12m6-6H7"></path>
+                <path stroke="blue" strokeWidth="2" d="M11 1H1v10M15 1h10v10M15 25h10V15M11 25H1V15m12-8v12m6-6H7"></path>
               </svg>
               <Link href={projectUrl} state={{ fromProject: true }} onClick={() => window.scrollTo(0, 0)}>
                 <p>view the project</p>
