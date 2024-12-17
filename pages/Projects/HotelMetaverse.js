@@ -7,7 +7,7 @@ import Back from '../../components/button/Back';
 import Buttons from '../../components/button/Buttons';
 
 export default function HotelMetaverse() {
-  const project = projectList[4];
+  const project = projectList[5];
 
   return (
     <>

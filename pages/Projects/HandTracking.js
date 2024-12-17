@@ -6,7 +6,7 @@ import Back from '../../components/button/Back';
 import Buttons from '../../components/button/Buttons';
 
 export default function HandTracking() {
-  const project = projectList[5];
+  const project = projectList[6];
 
   return (
     <>

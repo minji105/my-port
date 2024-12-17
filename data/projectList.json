@@ -44,6 +44,17 @@
     "explain": "현재 사이트입니다. 반응형으로 제작하였습니다."
   },
   {
+    "title": "Milwaukee Art Museum Clone",
+    "category": "Web",
+    "type": "Pesonal",
+    "date": "2024.12.17 ~",
+    "stack": ["HTML", "CSS", "JS"],
+    "role": "Development",
+    "url": "/Projects/Museum",
+    "main": "/images/museum/main.gif",
+    "explain": "Milwaukee Art Museum 페이지 클론코딩 - 현재 제작중입니다."
+  },
+  {
     "title": "Hotel Metaverse",
     "category": "VR/AR",
     "type": "Team",
