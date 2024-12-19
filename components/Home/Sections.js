@@ -35,7 +35,7 @@ export default function Sections() {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className={styles.sectionTitle}>
           <h2>Experience</h2>
         </div>
@@ -63,7 +63,7 @@ export default function Sections() {
             총 6개의 초등학교에서 멘토링을 진행하였으며 저는 인공지능 윤리 수업과 sns 홍보를 담당했습니다.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* <section>
         <div className={styles.sectionTitle}>
