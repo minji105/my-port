@@ -3,12 +3,12 @@
     "title": "Milwaukee Art Museum Clone",
     "category": "Web",
     "type": "Pesonal",
-    "date": "2024.12.17 ~",
-    "stack": ["HTML", "CSS", "JS"],
+    "date": "2024.12.17 ~ 19",
+    "stack": ["HTML", "CSS", "JS", "반응형형"],
     "role": "Development",
     "url": "/Projects/Museum",
     "main": "/images/museum/main.gif",
-    "explain": "Milwaukee Art Museum 페이지 클론코딩 - 현재 제작중입니다."
+    "explain": "Milwaukee Art Museum 페이지 클론코딩"
   },
   {
     "title": "Portfolio Website",
