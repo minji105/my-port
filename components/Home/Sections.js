@@ -8,23 +8,15 @@ export default function Sections() {
     <div className={styles.container}>
       <section>
         <div className={styles.sectionTitle}>
-          <h2>Skills</h2>
+          <h1>Skills</h1>
         </div>
 
         <Skills />
       </section>
 
-      <section id='project-section'>
-        <div className={styles.sectionTitle}>
-          <h2>Project</h2>
-        </div>
-
-        <Project />
-      </section>
-
       <section>
         <div className={styles.sectionTitle}>
-          <h2>Education</h2>
+          <h1>Education</h1>
         </div>
 
         <div className={styles.resume}>
@@ -35,9 +27,9 @@ export default function Sections() {
         </div>
       </section>
 
-      {/* <section>
+      <section>
         <div className={styles.sectionTitle}>
-          <h2>Experience</h2>
+          <h1>Experience</h1>
         </div>
 
         <div className={styles.resume}>
@@ -63,11 +55,11 @@ export default function Sections() {
             총 6개의 초등학교에서 멘토링을 진행하였으며 저는 인공지능 윤리 수업과 sns 홍보를 담당했습니다.
           </p>
         </div>
-      </section> */}
+      </section>
 
-      {/* <section>
+      <section>
         <div className={styles.sectionTitle}>
-          <h2>Certificate</h2>
+          <h1>Certificate</h1>
         </div>
 
         <div className={styles.resume}>
@@ -90,7 +82,15 @@ export default function Sections() {
             <p className={styles.resumeTitle}>정보처리기사</p>
           </div>
         </div>
-      </section> */}
+      </section>
+
+      <section id='project-section'>
+        <div className={styles.sectionTitle}>
+          <h1>Project</h1>
+        </div>
+
+        <Project />
+      </section>
     </div>
   )
 }

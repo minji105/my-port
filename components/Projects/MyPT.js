@@ -2,8 +2,8 @@ import styles from '../styling/Project.module.scss';
 import Link from 'next/link';
 import React from 'react';
 import projectList from '../../data/projectList.json';
-import Back from '../../components/button/Back';
-import Buttons from '../../components/button/Buttons';
+import Back from '../button/Back';
+import Buttons from '../button/Buttons';
 
 export default function MyPT() {
   const project = projectList[4];

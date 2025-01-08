@@ -25,7 +25,6 @@ export default function Home() {
         <div className={styles.links}>
           <div>
             <Link href="https://github.com/minji105">Github</Link>
-            <Link href="https://codepen.io/aki-builder/collections/">CodePen</Link>
           </div>
           <p className={styles.updated}>Last Updated
             <span className={styles.updatedDate}>24.12.16</span>
