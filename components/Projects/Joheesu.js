@@ -1,14 +1,11 @@
 import styles from './Project.module.scss';
 import Link from 'next/link';
 import React from 'react';
-import projectList from '../../data/projectList.json';
 
 export default function Joheesu() {
-  const project = projectList[3];
-
   return (
     <>
-<div className={styles.project}>
+      <div className={styles.project}>
         <div>
           <h2>Photographer website</h2>
           <p>사진작가 조희수의 포토 갤러리 사이트입니다.</p>
@@ -77,47 +74,47 @@ export default function Joheesu() {
           </ul>
         </div>
         <div>
-          <img src="/images/joheesu/main.gif" alt="" />
+          <img src="/images/joheesu/main.gif" alt="Photographer website gif" />
           <div className={styles.sideImg}>
             <div className={styles.sideImgColumn}>
               <div>
-                <img src="/images/joheesu/pc-list.png" alt="pc list" />
+                <img src="/images/joheesu/pc-list.png" alt="프로젝트 목록 페이지" />
                 <p className={styles.gray}>프로젝트 목록 페이지</p>
               </div>
               <div>
-                <img src="/images/joheesu/pc-detail.png" alt="pc detail" />
+                <img src="/images/joheesu/pc-detail.png" alt="프로젝트 상세 페이지" />
                 <p className={styles.gray}>프로젝트 상세 페이지</p>
               </div>
               <div>
-                <img src="/images/joheesu/pc-contact.png" alt="pc contact" />
-                <p className={styles.gray}>프로젝트 상세 페이지</p>
+                <img src="/images/joheesu/pc-contact.png" alt="연락 페이지" />
+                <p className={styles.gray}>연락 페이지</p>
               </div>
               <div>
-                <img src="/images/joheesu/main-before.png" alt="pc contact" />
-                <img src="/images/joheesu/list-before.png" alt="pc contact" />
+                <img src="/images/joheesu/main-before.png" alt="메인 페이지 최적화 전" />
+                <img src="/images/joheesu/list-before.png" alt="목록 페이지 최적화 전" />
                 <p className={styles.gray}>최적화 전</p>
               </div>
             </div>
             <div className={styles.sideImgColumn}>
               <div>
-                <img src="/images/joheesu/list.gif" alt="pc list2" />
+                <img src="/images/joheesu/list.gif" alt="목록 페이지 반응형 gif" />
                 <p className={styles.gray}>목록 페이지 반응형</p>
               </div>
               <div>
-                <img src="/images/joheesu/pc-detail2.png" alt="pc detail2" />
+                <img src="/images/joheesu/pc-detail2.png" alt="프로젝트 상세 페이지 이미지 슬라이드" />
                 <p className={styles.gray}>이미지 슬라이드</p>
               </div>
               <div>
                 <div className={styles.mobileImgs}>
-                  <img src="/images/joheesu/mb-main-alert.jpg" alt="mobile main" />
-                  <img src="/images/joheesu/mb-detail-alert.jpg" alt="mobile detail2" />
+                  <img src="/images/joheesu/mb-main-alert.jpg" alt="모바일 메인 페이지" />
+                  <img src="/images/joheesu/mb-detail-alert.jpg" alt="모바일 상세 페이지" />
                 </div>
                 <p className={styles.gray}>모바일</p>
               </div>
               <div>
-                <img src="/images/joheesu/main-after.png" alt="pc contact" />
-                <img src="/images/joheesu/list-after.png" alt="pc contact" />
-                <img src="/images/joheesu/seo.png" alt="pc contact" />
+                <img src="/images/joheesu/main-after.png" alt="메인 페이지 최적화 후" />
+                <img src="/images/joheesu/list-after.png" alt="목록 페이지 최적화 후" />
+                <img src="/images/joheesu/seo.png" alt="검색엔진 최적화" />
                 <p className={styles.gray}>최적화 후</p>
               </div>
             </div>
