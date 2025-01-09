@@ -49,3 +49,9 @@
     width: 50%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .project {
+    flex-direction: column;
+  }
+}

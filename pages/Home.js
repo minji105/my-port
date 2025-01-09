@@ -18,8 +18,8 @@ export default function Home() {
 
         <p className={styles.introduce}>
           직관적인 UI 제공과 완성도 높은 웹을 제공하는 개발자가 되고자 노력하고 있습니다.<br/>
-          깔끔하고 효율적인 코드를 지향하며 항상 개선하고 있습니다.<br/>
-          협업에서 적극적인 의사소통의 중요성을 알고 있습니다.
+          완성에서 그치지 않고 완성 후에도 더 효율적으로 작성할 수는 없는지, 더 개선할 부분은 없는지 끊임없이 고민합니다.<br/>
+          웹 접근성과 성능을 고려하며 개발하며 openWax, Lighthouse 등의 개발도구를 활용합니다.
         </p>
 
         <div className={styles.links}>
@@ -27,7 +27,7 @@ export default function Home() {
             <Link href="https://github.com/minji105">Github</Link>
           </div>
           <p className={styles.updated}>Last Updated
-            <span className={styles.updatedDate}>24.12.16</span>
+            <span className={styles.updatedDate}>25.01.09</span>
           </p>
         </div>
 
