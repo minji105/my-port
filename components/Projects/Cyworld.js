@@ -19,7 +19,6 @@ export default function Cyworld() {
           </div>
           <p>React.js, Next.js, MongoDB, SCSS</p>
 
-          <br />
           <h3>Next.js API routes 사용</h3>
           <ul>
             <li>투데이/토탈 방문자 수</li>
